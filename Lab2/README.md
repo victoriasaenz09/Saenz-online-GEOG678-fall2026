@@ -1,1 +1,1 @@
-# Saenz-online-GEOG678-fall2026
+Lab 2 Web App Access: https://tamu.maps.arcgis.com/apps/instant/basic/index.html?appid=bff4f8327cb24e05ab885dd19648cd95 
