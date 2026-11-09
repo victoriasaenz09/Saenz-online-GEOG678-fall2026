@@ -4,10 +4,10 @@
 Task 1: Online Tutorials
 
 Screenshot 1: Introduction to HTML
-![Introduction to HTML](<Introduction to HTML.jpg>)
+![Introduction to HTML](Introduction_to_HTML.jpg)
 
 Screenshot 2: Learn CSS
-![Learn CSS](<Selectors and Visual Rules.jpg>)
+![Learn CSS](Selectors_and_Visual_Rules.jpg)
 
 
 Task 2: Build your own Resume
