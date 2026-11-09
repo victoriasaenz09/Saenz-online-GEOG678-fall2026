@@ -4,7 +4,7 @@
 Task 1: Online Tutorials
 
 Screenshot 1: Introduction to HTML
-![Introduction to HTML](Introduction_to_HTML.jpg)
+![Introduction to HTML](Introduction_To_HTML.jpg)
 
 Screenshot 2: Learn CSS
 ![Learn CSS](Selectors_and_Visual_Rules.jpg)
