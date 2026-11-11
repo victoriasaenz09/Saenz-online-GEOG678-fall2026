@@ -1,7 +1,7 @@
 # Saenz-online-GEOG678-fall2026
 # Lab 5
 
-##Task 1
+## Task 1
 
 - Tutorial 1: Leaflet Quick Start Guide
 ![Screenshot of Tutorial 1](ScreenshotTutorial1_QuickStart.jpg)
@@ -14,7 +14,7 @@
 ![Screenshot of Tutorial 3](ScreenshotTutorial3_CustomIcons.jpg)
 
 
-##Task 2
+## Task 2
 
 - Screenshot of Academic Building Pop-up
 ![Screenshot of Academic Building](Screenshot_AcademicBuilding.jpg)
