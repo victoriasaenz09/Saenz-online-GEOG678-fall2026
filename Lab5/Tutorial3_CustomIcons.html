@@ -1,0 +1,46 @@
+<!DOCTYE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1">
+	<title>Tutorial 3 - Markers with Custom ICons</title>
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@2.0.0-beta.3/dist/leaflet.css">
+	<script type="importmap">
+		{"imports": {"leaflet": "https://cdn.jsdelivr.net/npm/leaflet@2.0.0-beta.3/dist/leaflet.js"}}
+	</script>
+</head>
+<body>
+	<div id="map" style="height: 600px"></div>
+	
+	<script type="module">
+		import {LeafletMap, TileLayer, Marker, Icon} from 'leaflet';
+		
+		const map = new LeafletMap('map').setView([51.5, -0.09], 13);
+		
+		new TileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			maxZoom: 19,
+			attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+		}).addTo(map);
+		
+		class LeafIcon extends Icon {
+			static defaultOptions = {
+				shadowUrl: 'leaf-shadow.png',
+				iconSize: [38, 95],
+				shadowSize: [50, 64],
+				iconAnchor: [22, 94],
+				shadowAnchor: [4, 62],
+				popupAnchor: [-3, -76]
+			};
+		}
+		
+		const greenIcon = new LeafIcon({iconUrl: 'leaf-green.png'}),
+			  redIcon = new LeafIcon({iconUrl: 'leaf-red.png'}),
+			  orangeIcon = new LeafIcon({iconUrl: 'leaf-orange.png'});
+			  
+		new Marker([51.5, -0.09], {icon: greenIcon}).addTo(map).bindPopup("I am a green leaf.");
+		new Marker([51.495, -0.083], {icon: redIcon}).addTo(map).bindPopup("I am a red leaf.");
+		new Marker([51.49, -0.1], {icon: orangeIcon}).addTo(map).bindPopup("I am an orange leaf.");
+	</script>
+</body>
+</html>
