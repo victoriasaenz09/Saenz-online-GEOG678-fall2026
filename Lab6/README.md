@@ -12,4 +12,4 @@
 
 ## Task 2
 - Custom TAMU Map
-![Screenshot of Custom Map](Screenshot_CustomMap_.jpg)
+![Screenshot of Custom Map](Screenshot_CustomMap.jpg)
